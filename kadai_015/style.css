@@ -2,4 +2,8 @@
   font-family: ""Arial", "Meiryo", sans-serif;
   font-size: 20px;
   text-align: center;
+  .blue {
+  color: skyblue;}
+ .pink {
+  color: rgb(255, 192, 203);}
 }
