@@ -5,8 +5,9 @@
 .pink {
   color: rgb(255, 192, 203);
 }
-body{
-  font-family: :"Arial", "Meiryo", sans-serif;
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
 }
 html{
   font-size:20px;
@@ -24,14 +25,8 @@ html{
         border-bottom: 3px solid rgb(115, 115, 114); /* 下線を設定 */
     }
 </style>
- <style>
-        body {
-            text-align: center; /* 中央寄せにする */
-        }
-        #basic {
-            margin: 0 auto; /* コンテンツを中央に配置 */
-        }
-        #basic span {
-            font-weight: bold; /* 太字 */
-        }
+ <style>  
+        #basic > p {
+  font-weight: bold;
+}
     </style>
