@@ -1,9 +1,37 @@
-.decoration {
-  font-family: ""Arial", "Meiryo", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  .blue {
-  color: skyblue;}
- .pink {
-  color: rgb(255, 192, 203);}
+.blue {
+  color: skyblue;
 }
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+body{
+  font-family: :"Arial", "Meiryo", sans-serif;
+}
+html{
+  font-size:20px;
+}
+<style>
+    :root {
+        font-size: 16px; /* 基本のルートフォントサイズを16pxと仮定 */
+    }
+
+    h1 {
+        font-family: 'Josefin Sans', sans-serif; /* Googleフォントとフォールバックフォントの設定 */
+        font-size: 2rem; /* ルート要素の2倍のサイズになる（16px * 2 = 32px） */
+        letter-spacing: 0.075em; /* 文字の大きさ（2rem = 32px）の1.2倍だから、32px * 0.075 = 2.4px */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* お好みで影の大きさや色を設定 */
+        border-bottom: 3px solid rgb(115, 115, 114); /* 下線を設定 */
+    }
+</style>
+<style>
+        body {
+            text-align: center; 
+        }
+        #basic {
+            margin: 0 auto; /
+        }
+        #basic span {
+            font-weight: bold; 
+        }
+    </style>
