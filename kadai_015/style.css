@@ -24,14 +24,14 @@ html{
         border-bottom: 3px solid rgb(115, 115, 114); /* 下線を設定 */
     }
 </style>
-<style>
+ <style>
         body {
-            text-align: center; 
+            text-align: center; /* 中央寄せにする */
         }
         #basic {
-            margin: 0 auto; /
+            margin: 0 auto; /* コンテンツを中央に配置 */
         }
         #basic span {
-            font-weight: bold; 
+            font-weight: bold; /* 太字 */
         }
     </style>
