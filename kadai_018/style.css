@@ -35,24 +35,24 @@
     position: absolute;
     top: 100px; /* 親要素の上から100px */
     left: 100px; /* 親要素の左から100px */
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 #middle-child02 {
     position: absolute;
     top: 300px; /* 親要素の上から300px */
     left: 300px; /* 親要素の左から300px */
-    width: 100px;
-    height: 100px;
+    width: 200x;
+    height: 200px;
 }
 
 #middle-child03 {
     position: absolute;
     top: 500px; /* 親要素の上から500px */
     left: 500px; /* 親要素の左から500px */
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 #bottom {
     width: 800px; /* 横幅を800pxに設定 */
